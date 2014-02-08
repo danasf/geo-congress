@@ -1,0 +1,21 @@
+
+{
+  "name": "csv-geocode-congress",
+  "version": "0.3.0",
+  "author": "Dana <dana-lists@sonic.net>",
+  "description": "Geocode CSV file and append Congressonal District",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/danasf/geo-congress/geo-congress.git"
+  },
+  "dependencies" : {
+    "node-geocoder"   :  "*",
+    "sunlight-congress-api" :  "*",
+    "fast-csv" :  "*",
+    "fs":"*"
+    },
+     "license": "MIT",
+ 	 "engines": {
+    	"node": ">=0.1"
+  	}
+}
